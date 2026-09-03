@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="TLD_Auto.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="74"/>
+        <CursorPos X="28" Y="82"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uMainForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="6877"/>
+        <CursorPos X="30" Y="6902"/>
+        <UsageCount Value="200"/>
+        <Bookmarks Count="2">
+          <Item0 Y="22441" ID="9"/>
+          <Item1 Y="19859"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uMyComPort.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uMyCOMPort"/>
+        <EditorIndex Value="21"/>
+        <TopLine Value="102"/>
+        <CursorPos X="29" Y="121"/>
+        <UsageCount Value="200"/>
+        <Bookmarks Count="1">
+          <Item0 X="9" Y="133" ID="6"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uLanguages.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="755"/>
+        <CursorPos Y="790"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <EditorIndex Value="-1"/>
+          <TopLine Value="829"/>
+          <CursorPos X="22" Y="857"/>
+        </ExtraEditor1>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uSeparator.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="20"/>
+        <TopLine Value="55"/>
+        <CursorPos X="27" Y="79"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uVersion.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="VW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="122"/>
+        <CursorPos X="3" Y="159"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uSetConnection.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SetW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="252"/>
+        <CursorPos X="65" Y="300"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uTLDCommand.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utldcommand"/>
+        <EditorIndex Value="14"/>
+        <TopLine Value="1388"/>
+        <CursorPos X="30" Y="1411"/>
+        <UsageCount Value="200"/>
+        <Bookmarks Count="2">
+          <Item0 X="41" Y="2487" ID="8"/>
+          <Item1 Y="1437" ID="7"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uControl.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ControlW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="19"/>
+        <TopLine Value="1607"/>
+        <CursorPos Y="1643"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDosimeter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="13"/>
+        <TopLine Value="1116"/>
+        <CursorPos X="16" Y="1153"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDetector.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="12"/>
+        <CursorPos X="3" Y="9"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uStartMF.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="StartMeasureW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="2229"/>
+        <CursorPos X="53" Y="2247"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uLog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="25" Y="51"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDataModule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TLDDataModule"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="31"/>
+        <TopLine Value="3475"/>
+        <CursorPos Y="3519"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uConst.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="26"/>
+        <TopLine Value="1256"/>
+        <CursorPos X="24" Y="1286"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uOpenDB.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="OpenDB"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="38" Y="10"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uEnterDBName.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="EnterDBName"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="32"/>
+        <TopLine Value="77"/>
+        <CursorPos X="27" Y="80"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uAddUserForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AddUW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="80"/>
+        <CursorPos Y="100"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uChangePassForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="UChangePassW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="136"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uUsersJournalForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="UJW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="32" Y="15"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uLogPassForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="29"/>
+        <TopLine Value="230"/>
+        <CursorPos X="24" Y="235"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uFunctions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="71" Y="18"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uCalcForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CalcForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="16"/>
+        <CursorPos X="24" Y="16"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UOptions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="OptionsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="18"/>
+        <TopLine Value="780"/>
+        <CursorPos X="5" Y="809"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDataGeneratorForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="GeneratorForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="695"/>
+        <CursorPos X="51" Y="744"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uFinishMF.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FinishMeasureW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="59"/>
+        <CursorPos X="5" Y="85"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uImportDosimeters.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ImportDosimetersW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="620"/>
+        <CursorPos X="98" Y="641"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uImportProcess.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ImportProcessW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="99"/>
+        <CursorPos X="3" Y="119"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uModel.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ModelW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1483"/>
+        <CursorPos X="42" Y="1501"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uBackupForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="BackupForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="23"/>
+        <TopLine Value="24"/>
+        <CursorPos Y="36"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uCalibrationForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CalibrationForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="22"/>
+        <TopLine Value="254"/>
+        <CursorPos X="52" Y="275"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uKDosimeterForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="KDosimeterForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="23" Y="78"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uImportDBForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ImportDBForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="33"/>
+        <TopLine Value="168"/>
+        <CursorPos X="40" Y="181"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDetectorConstructorForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DetectorConstructorForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="34"/>
+        <CursorPos X="25" Y="42"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uReportForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="RW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="19" Y="230"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDosimeterConstructorForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DosimeterConstructorForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="24"/>
+        <TopLine Value="724"/>
+        <CursorPos X="34" Y="760"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uSplashScreen.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="30"/>
+        <TopLine Value="64"/>
+        <CursorPos X="14" Y="90"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uImportInCurrentDBForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ImportInCurrentDBForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="241"/>
+        <CursorPos Y="262"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uSQLFilterForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SQLFilterForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="69"/>
+        <CursorPos X="10" Y="106"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uAddDosInQueue.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AddInQueueW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="53"/>
+        <CursorPos X="23" Y="70"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uQueueForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="QueueForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="257"/>
+        <CursorPos X="66" Y="292"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDosEditForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SetDosEditForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="35"/>
+        <CursorPos X="18" Y="27"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDosimeterTypeConstructorForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DosimeterTypeConstructorForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="25"/>
+        <TopLine Value="1124"/>
+        <CursorPos X="5" Y="1151"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uImportMeasForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ImportMeasForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="60" Y="32"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uUsersManagement.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="199"/>
+        <CursorPos Y="153"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uEnterNewDosTypeForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="EnterNewDosTypeForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="48"/>
+        <CursorPos X="3" Y="50"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uEnterNewDetTypeForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="EnterNewDetTypeForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="31"/>
+        <CursorPos X="3" Y="51"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uAddDosInCalibr.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AddInCalibrW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="114"/>
+        <CursorPos X="64" Y="143"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDosimeterPartForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DosimeterPartForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="125"/>
+        <CursorPos X="122" Y="148"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uEnterNewDosPartForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="EnterNewDosPartForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="27"/>
+        <TopLine Value="9"/>
+        <CursorPos X="13" Y="39"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uWarningComment.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="WarningCommentForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="6"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uUserWarningCommentForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="UserWarningCommentForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="10" Y="7"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uWarningErrorForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="WarningErrorW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="58" Y="42"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uUserFirstStartForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormUserFirstStart"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="91"/>
+        <CursorPos X="86" Y="114"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uExportDosAndSettingsForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ExportDosAndSettingsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="34"/>
+        <TopLine Value="413"/>
+        <CursorPos Y="423"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uSendToCalibrForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SendToCalibrW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="11"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uchangedosnameinmeas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ChangeDosNameInMeasForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uChangeDosNameInMeas"/>
+        <EditorIndex Value="28"/>
+        <TopLine Value="78"/>
+        <CursorPos X="28" Y="105"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uTLDCommandSeries.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="15"/>
+        <TopLine Value="73"/>
+        <CursorPos X="48" Y="94"/>
+        <UsageCount Value="200"/>
+        <Bookmarks Count="5">
+          <Item0 Y="338" ID="3"/>
+          <Item1 X="24" Y="1371" ID="4"/>
+          <Item2 Y="203" ID="5"/>
+          <Item3 Y="1413" ID="2"/>
+          <Item4 Y="1486" ID="1"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="utimermessages.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTimerMessages"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="3"/>
+        <CursorPos X="10" Y="24"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="utypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UTypes"/>
+        <CursorPos X="5" Y="12"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ustartirradiation.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="StartIrradiation"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uStartIrradiation"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="12"/>
+        <CursorPos Y="62"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="upoweroff.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormPowerOff"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uPowerOff"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="30" Y="37"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ustartgrading.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="StartGrading"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uStartGrading"/>
+        <EditorIndex Value="7"/>
+        <CursorPos Y="12"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uStartBurning.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="StartBurning"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="6"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="3" Y="43"/>
+        <UsageCount Value="3"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1027"/>
+        <CursorPos X="14" Y="1054"/>
+        <UsageCount Value="29"/>
+      </Unit>
+      <Unit>
+        <Filename Value="SlavaTools.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="50"/>
+        <CursorPos X="43" Y="55"/>
+        <UsageCount Value="38"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\customtimer.pas"/>
+        <UnitName Value="CustomTimer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="153"/>
+        <CursorPos Y="180"/>
+        <UsageCount Value="79"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Users\Пользователь\AppData\Local\lazarus\onlinepackagemanager\packages\synapse40.1\synaser.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="427"/>
+        <CursorPos X="15" Y="455"/>
+        <UsageCount Value="81"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\sysutils\sysutilh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="251"/>
+        <CursorPos X="12" Y="280"/>
+        <UsageCount Value="40"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3585"/>
+        <CursorPos Y="3618"/>
+        <UsageCount Value="5"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\sysutils\sysstrh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="46"/>
+        <CursorPos X="10" Y="72"/>
+        <UsageCount Value="2"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Users\Пользователь\Downloads\uTLDCommand.pas"/>
+        <UnitName Value="utldcommand"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Users\Пользователь\Downloads\uLanguages_1.pas"/>
+        <UnitName Value="uLanguages"/>
+        <EditorIndex Value="17"/>
+        <CursorPos X="9" Y="16"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\win\wininc\struct.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1447"/>
+        <CursorPos X="35" Y="1475"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\win\sysosh.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="33"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="\\git\Public\DozaTLD_Auto\uTLDCommandSeries.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="uMainForm.pas"/>
+        <Caret Line="6907" Column="28" TopLine="6878"/>
+      </Position>
+      <Position>
+        <Filename Value="uMainForm.pas"/>
+        <Caret Line="6896" Column="35" TopLine="6877"/>
+      </Position>
+      <Position>
+        <Filename Value="uMainForm.pas"/>
+        <Caret Line="6902" Column="30" TopLine="6877"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommandSeries.pas"/>
+        <Caret Line="330" TopLine="313"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommandSeries.pas"/>
+        <Caret Line="1644" Column="19" TopLine="1619"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommandSeries.pas"/>
+        <Caret Line="113" Column="15" TopLine="86"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommandSeries.pas"/>
+        <Caret Line="671" Column="19" TopLine="647"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommandSeries.pas"/>
+        <Caret Line="99" Column="80" TopLine="82"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommandSeries.pas"/>
+        <Caret Line="1413" TopLine="1407"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommandSeries.pas"/>
+        <Caret Line="112" Column="32" TopLine="85"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommandSeries.pas"/>
+        <Caret Line="1480" TopLine="1451"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommandSeries.pas"/>
+        <Caret Line="1410" Column="11" TopLine="1384"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommandSeries.pas"/>
+        <Caret Line="99" Column="103" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommandSeries.pas"/>
+        <Caret Line="1410" Column="45" TopLine="1407"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommandSeries.pas"/>
+        <Caret Line="99" Column="22" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommandSeries.pas"/>
+        <Caret Line="1419" TopLine="1407"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommand.pas"/>
+        <Caret Line="480" Column="53" TopLine="459"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommand.pas"/>
+        <Caret Line="1429" Column="73" TopLine="1388"/>
+      </Position>
+      <Position>
+        <Filename Value="uTLDCommand.pas"/>
+        <Caret Line="1411" Column="30" TopLine="1388"/>
+      </Position>
+      <Position>
+        <Filename Value="uMyComPort.pas"/>
+        <Caret Line="121" Column="29" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="uMyComPort.pas"/>
+        <Caret Line="121" Column="29" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="uCalcForm.pas"/>
+        <Caret Line="1075" Column="71" TopLine="1070"/>
+      </Position>
+      <Position>
+        <Filename Value="uCalcForm.pas"/>
+        <Caret Line="510" Column="8" TopLine="463"/>
+      </Position>
+      <Position>
+        <Filename Value="uCalcForm.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="uCalcForm.pas"/>
+        <Caret Line="510" Column="3" TopLine="460"/>
+      </Position>
+      <Position>
+        <Filename Value="uCalcForm.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="uCalcForm.pas"/>
+        <Caret Line="510" Column="13" TopLine="460"/>
+      </Position>
+      <Position>
+        <Filename Value="uCalcForm.pas"/>
+        <Caret Line="22"/>
+      </Position>
+      <Position>
+        <Filename Value="uCalcForm.pas"/>
+        <Caret Line="6120" Column="5" TopLine="6063"/>
+      </Position>
+      <Position>
+        <Filename Value="uCalcForm.pas"/>
+        <Caret Line="510" TopLine="477"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default">
+        <Mode Name="default">
+          <local>
+            <LaunchingApplication PathPlusParams="C:\WINDOWS\system32\cmd.exe \C ${TargetCmdLine}"/>
+          </local>
+        </Mode>
+      </Modes>
+    </RunParams>
+    <HistoryLists>
+      <List Name="LaunchingApplication" Type="File" Count="4">
+        <Item1 Value="C:/WINDOWS/system32/cmd.exe /C ${TargetCmdLine}"/>
+        <Item2 Value="C:\WINDOWS\system32\cmd.exe /C ${TargetCmdLine}"/>
+        <Item3 Value="/usr/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+        <Item4 Value="C:\WINDOWS\system32\cmd.exe \C ${TargetCmdLine}"/>
+      </List>
+      <List Name="CommandLineParameters" Count="6">
+        <Item1 Value="/User:SuperUser /Password:YGGLjpf /NO_LANGUAGE"/>
+        <Item2 Value="\User:SuperUser \Password:YGGLjpf \NO_LANGUAGE"/>
+        <Item3 Value="/User:admin /NO_LANGUAGE"/>
+        <Item4 Value="/User:PowerUser /Password:8485 /NO_LANGUAGE"/>
+        <Item5 Value="/User:admin /Password:8485 /NO_LANGUAGE"/>
+        <Item6 Value="\User:Admin \NO_LANGUAGE"/>
+      </List>
+    </HistoryLists>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\TLD\uMainForm.pas"/>
+        <Line Value="13444"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\TLD\uMainForm.pas"/>
+        <Line Value="13442"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\TLD\uMainForm.pas"/>
+        <Line Value="13418"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="uTLDCommandSeries.pas"/>
+        <Line Value="341"/>
+      </Item>
+    </BreakPoints>
+    <Watches>
+      <Item ClassAutoCast="True">
+        <Expression Value="Version.VersionStrings[i]"/>
+        <DisplayStyle Value="wdfString"/>
+      </Item>
+      <Item ClassAutoCast="True"/>
+      <Item ClassAutoCast="True">
+        <Expression Value="dozaReportParam"/>
+      </Item>
+      <Item>
+        <Expression Value="AirHeatBoard.Temperature[2]"/>
+      </Item>
+      <Item>
+        <Expression Value="AirHeatBoard.Flow[2]"/>
+      </Item>
+    </Watches>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,72 @@
+object StartBurning: TStartBurning
+  Left = 880
+  Height = 497
+  Top = 326
+  Width = 509
+  BorderStyle = bsSingle
+  Caption = 'Отжиг'
+  ClientHeight = 497
+  ClientWidth = 509
+  Font.Height = -16
+  Position = poMainFormCenter
+  LCLVersion = '3.6.0.0'
+  object BtnStart: TButton
+    Left = 384
+    Height = 39
+    Top = 424
+    Width = 114
+    Caption = 'Старт'
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    ModalResult = 1
+    ParentFont = False
+    TabOrder = 0
+  end
+  object StatusBar: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 474
+    Width = 509
+    Panels = <    
+      item
+        Bevel = pbRaised
+        Width = 100
+      end    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
+  end
+  object RichMemo: TRichMemo
+    Left = 8
+    Height = 362
+    Top = 48
+    Width = 490
+    HideSelection = False
+    Lines.Strings = (
+      'Процесс отжига.'
+      ''
+      'В процессе отжига каждый дозиметр будет пропущен через процедуру типового отжига для сброса накопленной дозы.'
+      'ВАЖНО: Накопленная доза при этом будет утрачена.'
+    )
+    Rtf = '{\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil Segoe UI;}}'#13#10'{\colortbl ;\red255\green0\blue0;}'#13#10'{\*\generator Riched20 10.0.19041}\viewkind4\uc1 '#13#10'\pard\cf1\b\f0\fs24\''cf\''f0\''ee\''f6\''e5\''f1\''f1 \''ee\''f2\''e6\''e8\''e3\''e0.\cf0\b0\fs18\par'#13#10'\par'#13#10'\''c2 \''ef\''f0\''ee\''f6\''e5\''f1\''f1\''e5 \''ee\''f2\''e6\''e8\''e3\''e0 \''ea\''e0\''e6\''e4\''fb\''e9 \''e4\''ee\''e7\''e8\''ec\''e5\''f2\''f0 \''e1\''f3\''e4\''e5\''f2 \''ef\''f0\''ee\''ef\''f3\''f9\''e5\''ed \''f7\''e5\''f0\''e5\''e7 \''ef\''f0\''ee\''f6\''e5\''e4\''f3\''f0\''f3 \''f2\''e8\''ef\''ee\''e2\''ee\''e3\''ee \''ee\''f2\''e6\''e8\''e3\''e0 \''e4\''eb\''ff \''f1\''e1\''f0\''ee\''f1\''e0 \''ed\''e0\''ea\''ee\''ef\''eb\''e5\''ed\''ed\''ee\''e9 \''e4\''ee\''e7\''fb.\par'#13#10'\cf1\b\''c2\''c0\''c6\''cd\''ce:\b0  \''cd\''e0\''ea\''ee\''ef\''eb\''e5\''ed\''ed\''e0\''ff \''e4\''ee\''e7\''e0 \''ef\''f0\''e8 \''fd\''f2\''ee\''ec \''e1\''f3\''e4\''e5\''f2 \''f3\''f2\''f0\''e0\''f7\''e5\''ed\''e0.\cf0\f1\par'#13#10'\par'#13#10'}'#13#10#0
+    TabOrder = 2
+    ZoomFactor = 1
+  end
+  object LblTopCaption: TLabel
+    Left = 0
+    Height = 33
+    Top = 0
+    Width = 509
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'Отжиг'
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Layout = tlCenter
+    ParentColor = False
+    ParentFont = False
+  end
+end

@@ -1,0 +1,34 @@
+object FormPowerOff: TFormPowerOff
+  Left = 947
+  Height = 112
+  Top = 477
+  Width = 481
+  BorderStyle = bsSingle
+  Caption = 'Выключение'
+  ClientHeight = 112
+  ClientWidth = 481
+  Position = poMainFormCenter
+  LCLVersion = '3.6.0.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 112
+    Top = 0
+    Width = 481
+    Align = alClient
+    Caption = 'Выключение программы'
+    Font.Color = clRed
+    Font.Height = 30
+    Font.Style = [fsBold]
+    ParentFont = False
+    PopupMenu = PMenuExit
+    TabOrder = 0
+  end
+  object PMenuExit: TPopupMenu
+    Left = 162
+    Top = 23
+    object N_Exit: TMenuItem
+      Caption = 'Принудительный выход из программы без ожидания завершающих процедур'
+      OnClick = N_ExitClick
+    end
+  end
+end

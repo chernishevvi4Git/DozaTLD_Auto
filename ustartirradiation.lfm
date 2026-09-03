@@ -1,0 +1,100 @@
+object StartIrradiation: TStartIrradiation
+  Left = 1368
+  Height = 214
+  Top = 264
+  Width = 468
+  BorderStyle = bsSingle
+  Caption = 'Облучение'
+  ClientHeight = 214
+  ClientWidth = 468
+  OnActivate = FormActivate
+  LCLVersion = '3.6.0.0'
+  object LblTopCaption: TLabel
+    Left = 0
+    Height = 33
+    Top = 0
+    Width = 468
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'Облучение'
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Layout = tlCenter
+    ParentColor = False
+    ParentFont = False
+  end
+  object LblCalibrDose: TLabel
+    Left = 48
+    Height = 19
+    Top = 79
+    Width = 161
+    Caption = 'Доза облучения, мЗв:'
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    ParentColor = False
+    ParentFont = False
+  end
+  object ShapeConturDose: TShape
+    Left = 230
+    Height = 31
+    Top = 72
+    Width = 214
+    Brush.Color = clRed
+    Visible = False
+  end
+  object EditDose: TEdit
+    Left = 232
+    Height = 27
+    Top = 74
+    Width = 210
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    MaxLength = 18
+    ParentFont = False
+    TabOrder = 0
+    Text = '0'
+    OnChange = EditDoseChange
+  end
+  object BtnStart: TButton
+    Left = 330
+    Height = 39
+    Top = 128
+    Width = 114
+    Caption = 'Старт'
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    ModalResult = 1
+    ParentFont = False
+    TabOrder = 1
+    OnClick = BtnStartClick
+  end
+  object StatusBar: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 191
+    Width = 468
+    Panels = <    
+      item
+        Bevel = pbRaised
+        Width = 100
+      end    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
+  end
+  object LIrradiationEDR: TLabel
+    Left = 0
+    Height = 15
+    Top = 33
+    Width = 468
+    Align = alTop
+    Alignment = taCenter
+    Caption = ' '
+    Layout = tlCenter
+  end
+end

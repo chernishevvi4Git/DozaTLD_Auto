@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasUsesSectionForAllUnits Value="False"/>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <MainUnitHasScaledStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="TLD_Auto"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+      <Icon Value="0"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MajorVersionNr Value="1"/>
+      <BuildNr Value="7"/>
+      <Language Value="0419"/>
+    </VersionInfo>
+    <BuildModes>
+      <Item Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <OpenInFileMan Value="True"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+    </RunParams>
+    <RequiredPackages>
+      <Item>
+        <PackageName Value="laz_synapse"/>
+      </Item>
+      <Item>
+        <PackageName Value="LazarusModbus"/>
+      </Item>
+      <Item>
+        <PackageName Value="lazreport"/>
+      </Item>
+      <Item>
+        <PackageName Value="laz_fpspreadsheet"/>
+      </Item>
+      <Item>
+        <PackageName Value="EhLib"/>
+      </Item>
+      <Item>
+        <PackageName Value="FCL"/>
+      </Item>
+      <Item>
+        <PackageName Value="richmemo_design"/>
+      </Item>
+      <Item>
+        <PackageName Value="richmemopackage"/>
+      </Item>
+      <Item>
+        <PackageName Value="JvMMLazR"/>
+      </Item>
+      <Item>
+        <PackageName Value="atflatcontrols_package"/>
+      </Item>
+      <Item>
+        <PackageName Value="JvStdCtrlsLazR"/>
+      </Item>
+      <Item>
+        <PackageName Value="DateTimeCtrls"/>
+      </Item>
+      <Item>
+        <PackageName Value="indylaz"/>
+      </Item>
+      <Item>
+        <PackageName Value="RunTimeTypeInfoControls"/>
+      </Item>
+      <Item>
+        <PackageName Value="TAChartLazarusPkg"/>
+      </Item>
+      <Item>
+        <PackageName Value="rxnew"/>
+      </Item>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+    </RequiredPackages>
+    <Units>
+      <Unit>
+        <Filename Value="TLD_Auto.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uMainForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uMyComPort.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uMyCOMPort"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uLanguages.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uSeparator.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uVersion.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="VW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uSetConnection.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SetW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uTLDCommand.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utldcommand"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uControl.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ControlW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDosimeter.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDetector.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uStartMF.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="StartMeasureW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uLog.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDataModule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TLDDataModule"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uConst.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uOpenDB.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="OpenDB"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uEnterDBName.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="EnterDBName"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uAddUserForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AddUW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uChangePassForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="UChangePassW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uUsersJournalForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="UJW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uLogPassForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uFunctions.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uCalcForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CalcForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UOptions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="OptionsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDataGeneratorForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="GeneratorForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uFinishMF.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FinishMeasureW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uImportDosimeters.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ImportDosimetersW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uImportProcess.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ImportProcessW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uModel.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ModelW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uBackupForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="BackupForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uCalibrationForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CalibrationForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uKDosimeterForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="KDosimeterForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uImportDBForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ImportDBForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDetectorConstructorForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DetectorConstructorForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uReportForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="RW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDosimeterConstructorForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DosimeterConstructorForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uSplashScreen.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uImportInCurrentDBForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ImportInCurrentDBForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uSQLFilterForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SQLFilterForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uAddDosInQueue.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AddInQueueW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uQueueForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="QueueForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDosEditForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SetDosEditForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDosimeterTypeConstructorForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DosimeterTypeConstructorForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uImportMeasForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ImportMeasForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uUsersManagement.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uEnterNewDosTypeForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="EnterNewDosTypeForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uEnterNewDetTypeForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="EnterNewDetTypeForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uAddDosInCalibr.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AddInCalibrW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uDosimeterPartForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DosimeterPartForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uEnterNewDosPartForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="EnterNewDosPartForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uWarningComment.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="WarningCommentForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uUserWarningCommentForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="UserWarningCommentForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uWarningErrorForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="WarningErrorW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uUserFirstStartForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormUserFirstStart"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uExportDosAndSettingsForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ExportDosAndSettingsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uSendToCalibrForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SendToCalibrW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uchangedosnameinmeas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ChangeDosNameInMeasForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uChangeDosNameInMeas"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uTLDCommandSeries.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="utimermessages.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTimerMessages"/>
+      </Unit>
+      <Unit>
+        <Filename Value="utypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UTypes"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ustartirradiation.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="StartIrradiation"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uStartIrradiation"/>
+      </Unit>
+      <Unit>
+        <Filename Value="upoweroff.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormPowerOff"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uPowerOff"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ustartgrading.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="StartGrading"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uStartGrading"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uStartBurning.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="StartBurning"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="TLD_Auto"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <Libraries Value="..\Components\synapse40\source\lib;..\Components;C:\lazarus\components\EhLib\Lib\lib\x86_64-win64\;c:\lazarus\components\tachart\;c:\lazarus\components\tachart\editors\;c:\Users\Пользователь\AppData\Local\lazarus\onlinepackagemanager\packages\Indy10\Core\;c:\Users\Пользователь\AppData\Local\lazarus\onlinepackagemanager\packages\jvcllaz\lib\x86_64-win64\run\JvCore\;c:\Users\Пользователь\AppData\Local\lazarus\onlinepackagemanager\packages\jvcllaz\lib\x86_64-win64\run\JvStdCtrls\"/>
+      <OtherUnitFiles Value="c:\Users\Пользователь\AppData\Local\lazarus\onlinepackagemanager\packages\synapse40.1\;c:\lazarus\components\tachart\;C:\lazarus\components\EhLib\Lib\;c:\lazarus\components\tachart\editors\"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <IncludeAssertionCode Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf3"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions>
+      <Item>
+        <Name Value="EAbort"/>
+      </Item>
+      <Item>
+        <Name Value="ECodetoolError"/>
+      </Item>
+      <Item>
+        <Name Value="EFOpenError"/>
+      </Item>
+      <Item>
+        <Name Value="EConvertError"/>
+      </Item>
+      <Item>
+        <Name Value="EParamProtocolVarListFailure"/>
+      </Item>
+      <Item>
+        <Name Value="EIdSocketError"/>
+      </Item>
+      <Item>
+        <Name Value="EODBCException"/>
+      </Item>
+      <Item>
+        <Name Value="EDBConnectionErr"/>
+      </Item>
+      <Item>
+        <Name Value="RunError(201)"/>
+      </Item>
+      <Item>
+        <Name Value="ERangeError"/>
+      </Item>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

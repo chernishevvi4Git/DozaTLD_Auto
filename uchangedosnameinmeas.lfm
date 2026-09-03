@@ -1,0 +1,130 @@
+object ChangeDosNameInMeasForm: TChangeDosNameInMeasForm
+  Left = 458
+  Height = 255
+  Top = 31
+  Width = 479
+  BorderStyle = bsDialog
+  Caption = 'ChangeDosNameInMeasForm'
+  ClientHeight = 255
+  ClientWidth = 479
+  Position = poMainFormCenter
+  LCLVersion = '2.2.6.0'
+  object PanelBackGround: TPanel
+    Left = 0
+    Height = 155
+    Top = 50
+    Width = 479
+    Align = alClient
+    ClientHeight = 155
+    ClientWidth = 479
+    Font.Height = -21
+    ParentFont = False
+    TabOrder = 0
+    object LblEnterNewDosName: TLabel
+      Left = 48
+      Height = 30
+      Top = 22
+      Width = 70
+      Caption = 'Номер:'
+      ParentColor = False
+    end
+    object LabelEditEnterNewPostfix: TLabel
+      Left = 48
+      Height = 30
+      Top = 70
+      Width = 97
+      Caption = 'Постфикс:'
+      ParentColor = False
+    end
+    object EditEnterNewDosNumber: TEdit
+      Left = 200
+      Height = 38
+      Top = 16
+      Width = 210
+      OnChange = EditEnterNewDosNumberChange
+      OnKeyPress = EditEnterNewDosNumberKeyPress
+      TabOrder = 0
+    end
+    object EditEnterNewPostfix: TEdit
+      Left = 200
+      Height = 38
+      Top = 64
+      Width = 118
+      OnChange = EditEnterNewPostfixChange
+      OnKeyPress = EditEnterNewPostfixKeyPress
+      TabOrder = 1
+    end
+    object LblDosNameErr: TLabel
+      Left = 48
+      Height = 30
+      Top = 120
+      Width = 326
+      Caption = 'Введите существующий дозиметр'
+      Font.Color = clRed
+      Font.Height = -21
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object PanelDosTitle: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 479
+    Align = alTop
+    ClientHeight = 50
+    ClientWidth = 479
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 1
+    object LabelTitle: TLabel
+      Left = 1
+      Height = 48
+      Top = 1
+      Width = 477
+      Align = alClient
+      Alignment = taCenter
+      Caption = 'Изменить номер дозиметра'
+      Layout = tlCenter
+      ParentColor = False
+    end
+  end
+  object PanelBottom: TPanel
+    Left = 0
+    Height = 50
+    Top = 205
+    Width = 479
+    Align = alBottom
+    ClientHeight = 50
+    ClientWidth = 479
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 2
+    object BtnCancel: TButton
+      Left = 7
+      Height = 39
+      Top = 6
+      Width = 138
+      Caption = 'Закрыть'
+      Font.Color = clWindowText
+      Font.Height = -21
+      Font.Name = 'Tahoma'
+      OnClick = BtnCancelClick
+      ParentFont = False
+      TabOrder = 0
+    end
+    object BtnSave: TButton
+      Left = 330
+      Height = 39
+      Top = 6
+      Width = 138
+      Caption = 'Сохранить'
+      Font.Color = clWindowText
+      Font.Height = -21
+      Font.Name = 'Tahoma'
+      OnClick = BtnSaveClick
+      ParentFont = False
+      TabOrder = 1
+    end
+  end
+end
