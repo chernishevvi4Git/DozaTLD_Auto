@@ -1,0 +1,144 @@
+object AddInCalibrW: TAddInCalibrW
+  Left = 22
+  Height = 218
+  Top = 165
+  Width = 469
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  ClientHeight = 218
+  ClientWidth = 469
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '2.2.6.0'
+  object PanelCalibr: TPanel
+    Left = 0
+    Height = 157
+    Top = 0
+    Width = 469
+    Align = alClient
+    ClientHeight = 157
+    ClientWidth = 469
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    ParentFont = False
+    TabOrder = 0
+    object LblDosType: TLabel
+      Left = 16
+      Height = 25
+      Top = 24
+      Width = 43
+      Caption = 'Тип:'
+      ParentColor = False
+    end
+    object LblNumber: TLabel
+      Left = 16
+      Height = 25
+      Top = 89
+      Width = 131
+      Caption = 'Дозиметр №:'
+      Font.Color = clWindowText
+      Font.Height = -21
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object LblDosErr: TLabel
+      Left = 160
+      Height = 19
+      Top = 120
+      Width = 69
+      Caption = 'LblDosErr'
+      Font.Color = clRed
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+      Visible = False
+    end
+    object LblTypeErr: TLabel
+      Left = 160
+      Height = 19
+      Top = 55
+      Width = 77
+      Caption = 'LblTypeErr'
+      Font.Color = clRed
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+      Visible = False
+    end
+    object CBoxDosType: TComboBox
+      Left = 160
+      Height = 41
+      Top = 15
+      Width = 286
+      Font.Color = clWindowText
+      Font.Height = -27
+      Font.Name = 'Tahoma'
+      ItemHeight = 33
+      OnChange = CBoxDosTypeChange
+      ParentFont = False
+      Style = csDropDownList
+      TabOrder = 0
+    end
+    object EditDosNumber: TEdit
+      Left = 160
+      Height = 41
+      Top = 80
+      Width = 286
+      Font.Color = clWindowText
+      Font.Height = -27
+      Font.Name = 'Tahoma'
+      NumbersOnly = True
+      OnChange = EditDosNumberChange
+      ParentFont = False
+      TabOrder = 1
+    end
+  end
+  object PanelCalibrBottom: TPanel
+    Left = 0
+    Height = 61
+    Top = 157
+    Width = 469
+    Align = alBottom
+    ClientHeight = 61
+    ClientWidth = 469
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    ParentFont = False
+    TabOrder = 1
+    object ButtonAdd: TButton
+      Left = 304
+      Height = 43
+      Top = 10
+      Width = 142
+      Caption = 'Добавить'
+      OnClick = ButtonAddClick
+      TabOrder = 0
+    end
+    object ButtonClose: TButton
+      Left = 11
+      Height = 43
+      Top = 10
+      Width = 142
+      Caption = 'Закрыть'
+      OnClick = ButtonCloseClick
+      TabOrder = 1
+    end
+  end
+  object ADOQueryCalibrMW: TSQLQuery
+    FieldDefs = <>
+    Params = <>
+    Macros = <>
+    Left = 96
+    Top = 16
+  end
+end

@@ -1,0 +1,63 @@
+object EnterDBName: TEnterDBName
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'EnterDBName'
+  ClientHeight = 87
+  ClientWidth = 204
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poOwnerFormCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ErrorLabel: TLabel
+    Left = 8
+    Top = 31
+    Width = 49
+    Height = 13
+    Caption = 'ErrorLabel'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    Visible = False
+  end
+  object DBNameEdit: TEdit
+    Left = 8
+    Top = 8
+    Width = 188
+    Height = 21
+    CharCase = ecLowerCase
+    TabOrder = 0
+    OnChange = DBNameEditChange
+    OnKeyPress = DBNameEditKeyPress
+  end
+  object OkButton: TButton
+    Left = 7
+    Top = 48
+    Width = 66
+    Height = 25
+    Caption = 'OK'
+    Default = True
+    TabOrder = 1
+    OnClick = OkButtonClick
+  end
+  object CancelButton: TButton
+    Left = 130
+    Top = 48
+    Width = 66
+    Height = 25
+    Caption = #1054#1090#1084#1077#1085#1072
+    TabOrder = 2
+    OnClick = CancelButtonClick
+  end
+end

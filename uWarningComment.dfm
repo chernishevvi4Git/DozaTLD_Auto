@@ -1,0 +1,82 @@
+object WarningCommentForm: TWarningCommentForm
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsToolWindow
+  Caption = 'Warning'
+  ClientHeight = 171
+  ClientWidth = 374
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 19
+  object PanelBackground: TPanel
+    Left = 0
+    Top = 0
+    Width = 374
+    Height = 117
+    Align = alClient
+    BevelOuter = bvNone
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    object MemoMsg: TMemo
+      Left = 0
+      Top = 0
+      Width = 374
+      Height = 117
+      Align = alClient
+      PopupMenu = PopupMenuMemo
+      ReadOnly = True
+      TabOrder = 0
+      OnEnter = MemoDisable
+      OnExit = MemoEnable
+    end
+  end
+  object PanelBottom: TPanel
+    Left = 0
+    Top = 117
+    Width = 374
+    Height = 54
+    Align = alBottom
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    object BtnClose: TButton
+      Left = 8
+      Top = 6
+      Width = 116
+      Height = 44
+      Caption = #1047#1072#1082#1088#1099#1090#1100
+      TabOrder = 0
+      OnClick = BtnCloseClick
+    end
+    object BtnDropWarning: TButton
+      Left = 250
+      Top = 6
+      Width = 116
+      Height = 44
+      Caption = #1057#1073#1088#1086#1089#1080#1090#1100
+      TabOrder = 1
+      OnClick = BtnDropWarningClick
+    end
+  end
+  object PopupMenuMemo: TPopupMenu
+    Left = 312
+    Top = 16
+  end
+end
